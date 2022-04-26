@@ -1,6 +1,6 @@
 import Counter from "./Counter";
 import TodoList from "./TodoList";
-import TodoForm from "./TodoForm";
+// import TodoForm from "./TodoForm";
 import "./App.css";
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
         <div className="App">
             <Counter />
             <TodoList />
-            <TodoForm />
+            {/* <TodoForm /> */}
         </div>
     );
 }
